@@ -45,7 +45,7 @@ go build -o vodoo .
 
 Die Daten kommen aus Odoo:
 
-- **Vodoo** — Timesheets Pivot-Export als ODS oder XLSX
+- **Odoo** — Timesheets Pivot-Export als ODS oder XLSX
 - **Abwesenheiten** — Time Off List-Export als CSV
 - **Feiertage** — manuell gepflegte CSV für Baden-Württemberg
 
@@ -59,7 +59,7 @@ Im Ordner `data/` (oder per `--data` angegeben) werden folgende Dateien erwartet
 
 ### Formate
 
-**Vodoo** (ODS/XLSX): Spalte A = Datum (`02 Jan. 2026`), Spalte B = Stunden als Dezimalzahl.
+**Odoo** (ODS/XLSX): Spalte A = Datum (`02 Jan. 2026`), Spalte B = Stunden als Dezimalzahl.
 
 **Abwesenheiten** (CSV): Odoo-Export mit Spalten `Abwesenheitsart`, `Beschreibung`, `Dauer (Tage)`, `Startdatum`, `Enddatum`, `Status`. Nur Einträge mit Status `Genehmigt` werden berücksichtigt.
 
