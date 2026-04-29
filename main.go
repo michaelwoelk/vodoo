@@ -33,7 +33,7 @@ var germanMonths = map[string]int{
 	"Sep.": 9, "Okt.": 10, "Nov.": 11, "Dez.": 12,
 }
 
-// ─── Conuti color tokens ────────────────────────────────────────────────────
+// ─── Color tokens ───────────────────────────────────────────────────────────
 
 const (
 	colPrimaryGreen = lipgloss.Color("#A0D22B")

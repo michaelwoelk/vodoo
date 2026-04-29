@@ -36,7 +36,7 @@ Pages: Dashboard → Jahr → Monate → Feiertage & Abwesenheiten
 
 ## Color System
 
-Uses conuti brand tokens defined as constants (`colPrimaryGreen`, `colMint`, `colYellow`, `colOrange`, etc.). All colors reference these — never use raw ANSI codes or lipgloss color numbers.
+Uses brand color tokens defined as constants (`colPrimaryGreen`, `colMint`, `colYellow`, `colOrange`, etc.). All colors reference these — never use raw ANSI codes or lipgloss color numbers.
 
 ## Data Files (`data/` or `dataTest/`)
 

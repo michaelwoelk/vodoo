@@ -43,10 +43,10 @@ go build -o vodoo .
 
 ## Daten
 
-Die Daten kommen aus [Odoo](https://conuti-gmbh.odoo.com) (conuti GmbH):
+Die Daten kommen aus Odoo:
 
-- **Vodoo** — [Timesheets Pivot-Export](https://conuti-gmbh.odoo.com/odoo/timesheets?view_type=pivot) als ODS oder XLSX
-- **Abwesenheiten** — [Time Off List-Export](https://conuti-gmbh.odoo.com/odoo/time-off?view_type=list) als CSV
+- **Vodoo** — Timesheets Pivot-Export als ODS oder XLSX
+- **Abwesenheiten** — Time Off List-Export als CSV
 - **Feiertage** — manuell gepflegte CSV für Baden-Württemberg
 
 Im Ordner `data/` (oder per `--data` angegeben) werden folgende Dateien erwartet:
